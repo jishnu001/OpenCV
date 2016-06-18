@@ -21,7 +21,7 @@ int main( int argc, const char** argv )
   CvCapture* capture;
   Mat im;
 
-  //-- 2. Read the video stream
+  //. Read the video stream
   capture = cvCaptureFromCAM( -1 );
 
   if( capture )
