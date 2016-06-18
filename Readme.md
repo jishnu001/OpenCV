@@ -1,2 +1,2 @@
-#OpenCV Facedetect application for C++
+#OpenCV  application for C++
 
