@@ -86,7 +86,7 @@ int main( int argc, char** argv )
     double dM10 = oMoments.m10;
     double dArea = oMoments.m00;
 
-    //findContours(imgThresholded, cntrs, CV_RETR_EXTERNAL,CV_CHAIN_APPROX_NONE,Point());
+    //findContours(imgThresholded, cntrs, CV_RETR_EXTERNAL,CV_CHAIN_APPROX_NONE,Point(0,0));
     // if the area <= 10000, I consider that the there are no object in the image and it's because of the noise, the area is not zero
     if (dArea > 10000)
     {
