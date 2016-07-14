@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+project( <proj> )
+include_directories( <include path> )
+include_directories( <include path 2> )
+LINK_DIRECTORIES( <library path>)
+add_executable( <executable name> <main.cpp> <other custom included .cpp> )
+target_link_libraries( <executable>  <lib1.a> <lib2.a> )
